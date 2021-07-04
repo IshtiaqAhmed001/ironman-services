@@ -30,9 +30,15 @@ body{
 }
 .link-btn{
     text-decoration: none;
-    padding-right: 50px;
+    padding: 0 25px;
     font-weight: 600;
     color: white;
+    transition: 0.3s;
+}
+.link-btn:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
 .subscribe-link{
     position: right;
@@ -46,6 +52,12 @@ body{
     background-color: #b40303;
     padding: 10px;
     border-radius: 4px;
+    transition: 0.5s;
+}
+#subscribe-btn:hover{
+    background-color: white;
+    color: #b40303;
+    zoom: 1.2;
 }
 .intro{
     margin-left: 80px;
@@ -89,6 +101,12 @@ body{
     background-color: #b40303;
     padding: 6px 10px;
     border-radius: 4px;
+    transition: 0.5s;
+}
+#search-btn:hover{
+    background-color: white;
+    color: #b40303;
+    zoom: 1.2;
 }
 .bottom-line{
     margin-left: 80px;
@@ -109,4 +127,8 @@ body{
     background-color: rgba(24, 22, 22, 0.842);
     padding-right: 10px 20px;
     border-radius: 5px;
+    transition: 0.3s;
+}
+.social-media a:hover{
+    zoom: 1.2;
 }
